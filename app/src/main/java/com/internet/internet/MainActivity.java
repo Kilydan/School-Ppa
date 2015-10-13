@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.content_main);
         final WebView webview = new WebView(this);
         setContentView(webview);
         webview.getSettings().setJavaScriptEnabled(true);
@@ -30,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(activity, url, Toast.LENGTH_SHORT).show();
             }
         });
-        webview.loadUrl("https://www.google.nl/maps/@51.5412025,5.2672179,9z?hl=en");
+        webview.loadUrl("https://www.google.nl/maps/place/Nederland/@52.191735,3.0369282,7z/data=!3m1!4b1!4m2!3m1!1s0x47c609c3db87e4bb:0xb3a175ceffbd0a9f");
     }
 }
