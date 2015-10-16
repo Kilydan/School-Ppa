@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickMaps(View view) {
-        Intent maps = new Intent(Intent.ACTION_VIEW);
+        Intent maps = new Intent(Intent.ACTION_SEND);
         startActivity(maps);
     }
 
