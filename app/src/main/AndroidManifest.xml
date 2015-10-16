@@ -30,6 +30,16 @@
             android:theme="@style/AppTheme.NoActionBar" >
 
         </activity>
+        <activity
+            android:name=".Mail"
+            android:label="@string/title_activity_mail"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".facebook"
+            android:label="@string/title_activity_facebook"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
