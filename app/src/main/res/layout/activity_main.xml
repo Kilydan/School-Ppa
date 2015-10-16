@@ -11,7 +11,9 @@
         android:src="@drawable/maps"
         android:id="@+id/googleMaps"
         android:layout_width="match_parent"
-        android:layout_height="60sp" />
+        android:layout_height="60sp"
+        android:onClick="maps"
+        />
 
     <ImageButton
         android:src="@drawable/youtube"
@@ -20,7 +22,9 @@
         android:id="@+id/imageButton"
         android:layout_below="@+id/googleMaps"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="39dp" />
+        android:layout_marginTop="39dp"
+        android:onClick="youtube"
+        />
 
     <ImageButton
         android:src="@drawable/mail"
