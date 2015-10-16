@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         final WebView webview = new WebView(this);
         setContentView(webview);
         webview.getSettings().setJavaScriptEnabled(true);
+        //kek
         final Activity activity = this;
         webview.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView view, int progress) {
