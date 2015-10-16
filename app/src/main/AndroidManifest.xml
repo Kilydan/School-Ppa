@@ -28,6 +28,7 @@
             android:name=".Maps"
             android:label="@string/title_activity_maps"
             android:theme="@style/AppTheme.NoActionBar" >
+
         </activity>
     </application>
 
