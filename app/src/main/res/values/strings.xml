@@ -6,4 +6,5 @@
     <string name="title_activity_facebook">facebook</string>
     <string name="title_activity_youtube">Youtube</string>
     <string name="title_activity_gmail">Gmail</string>
+    <string name="title_activity_paint">paint</string>
 </resources>

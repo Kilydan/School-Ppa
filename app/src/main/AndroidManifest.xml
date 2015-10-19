@@ -49,6 +49,11 @@
             android:label="@string/title_activity_gmail"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".paint"
+            android:label="@string/title_activity_paint"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
