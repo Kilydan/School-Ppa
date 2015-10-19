@@ -28,7 +28,6 @@
             android:name=".Maps"
             android:label="@string/title_activity_maps"
             android:theme="@style/AppTheme.NoActionBar" >
-
         </activity>
         <activity
             android:name=".Mail"
@@ -36,8 +35,18 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".facebook"
+            android:name=".Facebook"
             android:label="@string/title_activity_facebook"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Youtube"
+            android:label="@string/title_activity_youtube"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Gmail"
+            android:label="@string/title_activity_gmail"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

@@ -4,4 +4,6 @@
     <string name="title_activity_maps">Maps</string>
     <string name="title_activity_mail">Mail</string>
     <string name="title_activity_facebook">facebook</string>
+    <string name="title_activity_youtube">Youtube</string>
+    <string name="title_activity_gmail">Gmail</string>
 </resources>
