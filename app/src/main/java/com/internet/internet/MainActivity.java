@@ -1,6 +1,7 @@
 package com.internet.internet;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -51,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
     public void onClickGmail (View view){
         Intent gmail = new Intent(MainActivity.this, Gmail.class);
         startActivity(gmail);
+    }
+    public void onClickPaint (View view){
+        Intent paint = new Intent(MainActivity.this, Paint.class);
+        startActivity(paint);
     }
 
 }

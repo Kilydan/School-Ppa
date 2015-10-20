@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class paint extends AppCompatActivity {
+public class Paint extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class paint extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
     }
 
 }
