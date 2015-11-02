@@ -35,7 +35,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".Facebook"
+            android:name=".facebook"
             android:label="@string/title_activity_facebook"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
@@ -52,6 +52,11 @@
         <activity
             android:name=".Painter"
             android:label="@string/title_activity_paint"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Nu"
+            android:label="@string/title_activity_nu"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

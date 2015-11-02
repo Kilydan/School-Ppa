@@ -11,12 +11,12 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-public class facebook extends AppCompatActivity {
+public class Nu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_facebook);
+        setContentView(R.layout.activity_nu);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -29,7 +29,7 @@ public class facebook extends AppCompatActivity {
                 Toast.makeText(activity, "Error!" + description, Toast.LENGTH_SHORT).show();
             }
         });
-        webview.loadUrl("https://www.facebook.com/");
+        webview.loadUrl("http://www.nu.nl/");
 
     }
 
