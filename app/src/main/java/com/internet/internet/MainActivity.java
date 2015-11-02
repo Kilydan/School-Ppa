@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(maps);
     }
     public void onClickFacebook(View view){
-        Intent facebook = new Intent(MainActivity.this, Facebook.class);
+        Intent facebook = new Intent(MainActivity.this, com.internet.internet.facebook.class);
         startActivity(facebook);
     }
     public void onClickGmail(View view){
@@ -55,6 +55,11 @@ public class MainActivity extends AppCompatActivity {
     public void onClickPaint(View view){
         Intent paint = new Intent(MainActivity.this, Painter.class);
         startActivity(paint);
+    }
+
+    public void onClickNu(View view){
+        Intent Nu = new Intent(MainActivity.this, Nu.class);
+        startActivity(Nu);
     }
 
 }
