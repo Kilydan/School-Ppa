@@ -1,31 +1,19 @@
 package com.internet.internet;
 
+import android.content.Context;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.util.AttributeSet;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 
-public class Painter extends AppCompatActivity {
-    DrawView drawView;
+public class Painter extends View {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_paint);
-
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-        drawView = new DrawView(this);
-        setContentView(drawView);
-        drawView.requestFocus();
-
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-
+    public Painter(Context context, AttributeSet attrs){
+        super(context, attrs);
+        setupDrawing();
     }
 
+    private void setupDrawing(){
+
+    }
 }
