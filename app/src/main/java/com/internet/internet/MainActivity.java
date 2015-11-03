@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_main);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -40,26 +41,42 @@ public class MainActivity extends AppCompatActivity {
         Intent maps = new Intent(MainActivity.this, Maps.class);
         startActivity(maps);
     }
-    public void onClickFacebook(View view){
-        Intent facebook = new Intent(MainActivity.this, com.internet.internet.Facebook.class);
+
+    public void onClickFacebook(View view) {
+        Intent facebook = new Intent(MainActivity.this, com.internet.internet.facebook.class);
         startActivity(facebook);
     }
-    public void onClickGmail(View view){
+
+    public void onClickGmail(View view) {
         Intent gmail = new Intent(MainActivity.this, Gmail.class);
         startActivity(gmail);
     }
-    public void onClickYoutube(View view){
+
+    public void onClickYoutube(View view) {
         Intent youtube = new Intent(MainActivity.this, Youtube.class);
         startActivity(youtube);
     }
-    public void onClickPaint(View view){
+
+    public void onClickPaint(View view) {
         Intent paint = new Intent(MainActivity.this, Painter.class);
         startActivity(paint);
     }
 
-    public void onClickNu(View view){
+    public void onClickNu(View view) {
         Intent Nu = new Intent(MainActivity.this, Nu.class);
         startActivity(Nu);
     }
 
-}
+
+        public void onClickStock(View view){
+        Intent Stock = new Intent(MainActivity.this, Stock.class);
+        startActivity(Stock);
+    }
+
+
+    public void onClickLol(View view){
+        Intent Lol = new Intent(MainActivity.this, Lol.class);
+        startActivity(Lol);
+    }
+
+    }

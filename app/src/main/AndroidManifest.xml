@@ -59,6 +59,16 @@
             android:label="@string/title_activity_nu"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".Stock"
+            android:label="@string/title_activity_stock"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Lol"
+            android:label="@string/title_activity_lol"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

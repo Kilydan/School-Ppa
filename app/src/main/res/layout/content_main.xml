@@ -20,7 +20,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -28,16 +28,18 @@
             android:orientation="vertical"
             android:layout_weight="1"
             >
+
             <ImageButton
-                android:id="@+id/imageButtonYoutube"
-                android:src="@drawable/youtube"
+                android:id="@+id/imageButtonPaint"
+                android:src="@drawable/paintlogo"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
                 android:background="#00000000"
-                android:onClick="onClickYoutube"
+                android:scaleType="fitXY"
+                android:onClick="onClickPaint"
                 />
+
 
             <ImageButton
                 android:id="@+id/imageButtonFacebook"
@@ -72,15 +74,16 @@
                 android:onClick="onClickGmail"
                  />
 
-            t<ImageButton
-                android:id="@+id/imageButtonPaint"
-                android:src="@drawable/paintlogo"
+            <ImageButton
+                android:id="@+id/imageButtonYoutube"
+                android:src="@drawable/youtube"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:background="#00000000"
-                android:scaleType="fitXY"
-                android:onClick="onClickPaint"
+                android:onClick="onClickYoutube"
+                />
                  />
         </LinearLayout>
 
@@ -102,12 +105,56 @@
 
                 />
 
-
-
         </LinearLayout>
 
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:id="@+id/stock"
+            android:src="@drawable/stock"
+            android:layout_width="wrap_content"
+            android:layout_height="158dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#00000000"
+            android:onClick="onClickStock"
+            android:scaleType="fitStart"
+
+            />
+
+        <ImageButton
+            android:id="@+id/lol"
+            android:src="@drawable/lol"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#00000000"
+            android:onClick="onClickLol"
+            android:scaleType="fitStart"
+
+            />
+
+        <ImageButton
+            android:id="@+id/School"
+            android:src="@drawable/roc"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#00000000"
+            android:onClick="onClickSchool"
+            android:scaleType="fitEnd"
+            />
+    </LinearLayout>
+
+
 
 
     </LinearLayout>

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Project_Ppa.iml" filepath="$PROJECT_DIR$/Project_Ppa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/School-Ppa.iml" filepath="$PROJECT_DIR$/School-Ppa.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ppa.iml" filepath="$PROJECT_DIR$/ppa.iml" />
     </modules>
   </component>
 </project>
