@@ -29,6 +29,7 @@
             android:layout_weight="1"
             >
 
+
             <ImageButton
                 android:id="@+id/imageButtonPaint"
                 android:src="@drawable/paintlogo"
