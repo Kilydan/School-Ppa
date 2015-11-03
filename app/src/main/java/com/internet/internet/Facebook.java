@@ -11,7 +11,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-public class facebook extends AppCompatActivity {
+public class Facebook extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -6,13 +6,23 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
+
+//    private Painter painter;
+//    private ImageButton currPaint;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_main);
+//        painter = (Painter)findViewById(R.id.painter);
+//        LinearLayout paintLayout = (LinearLayout)findViewById(R.id.paint_colors);
+//
+//        currPaint = (ImageButton)paintLayout.getChildAt(0);
+//        currPaint.setImageDrawable(getResources().getDrawable(R.drawable.paint_pressed));
     }
 
 
@@ -38,13 +48,24 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+//    public void paintClicked(View view){
+//        if(view!=currPaint){
+//            ImageButton imgView = (ImageButton)view;
+//            String color = view.getTag().toString();
+//            painter.setColor(color);
+//            imgView.setImageDrawable(getResources().getDrawable(R.drawable.paint_pressed));
+//            currPaint.setImageDrawable(getResources().getDrawable(R.drawable.paint));
+//            currPaint=(ImageButton)view;
+//        }
+//    }
+
     public void onClickMaps(View view) {
         Intent maps = new Intent(MainActivity.this, Maps.class);
         startActivity(maps);
     }
 
     public void onClickFacebook(View view) {
-        Intent facebook = new Intent(MainActivity.this, com.internet.internet.facebook.class);
+        Intent facebook = new Intent(MainActivity.this, com.internet.internet.Facebook.class);
         startActivity(facebook);
     }
 
@@ -59,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickPaint(View view) {
-        Intent paint = new Intent(MainActivity.this, Painter.class);
+        Intent paint = new Intent(MainActivity.this, PainterClass.class);
         startActivity(paint);
     }
 
